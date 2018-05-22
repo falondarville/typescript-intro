@@ -33,3 +33,8 @@ function yourName(firstName: string, lastName?: string): string{
 }
 
 console.log(yourName('John'));
+
+// this does not have to return anything since we set it to void
+function myVoid(): void{
+	return;
+}

@@ -26,3 +26,7 @@ function yourName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 console.log(yourName('John'));
+// this does not have to return anything since we set it to void
+function myVoid() {
+    return;
+}
